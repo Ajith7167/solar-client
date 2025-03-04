@@ -20,7 +20,7 @@ const RegisterPage = () => {
     }
 
     try {
-      const response = await axios.post("https://solar-server-fm30.onrender.com", {
+      const response = await axios.post("https://solar-server-fm30.onrender.com/users", {
         name,
         email,
         password,

@@ -13,7 +13,7 @@ const LoginPage = () => {
 
     try {
       // Fetch user data from backend
-      const response = await axios.get("https://solar-server-fm30.onrender.com");
+      const response = await axios.get("https://solar-server-fm30.onrender.com/users");
       const users = response.data;
       
       // Find user with matching email
